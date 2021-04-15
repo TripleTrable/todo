@@ -3,6 +3,7 @@ CFLAGS= -std=c99 -g -Wall -Wextra
  
  
 SRC=$(wildcard src/*.c)
+SRC+=$(wildcard src/commands/*.c)
 OBJ=$(patsubst %.c,%.o,$(SRC))
 DPS=$(patsubst %.c,%.d,$(SRC))
 #LIB=$(abspath $(wildcard lib/*/*.a))
