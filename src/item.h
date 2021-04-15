@@ -6,15 +6,15 @@ typedef struct _date
     unsigned day;
     unsigned month;
     unsigned year;
-} date;
+} Date;
 
 typedef struct _item 
 {
     char* name;
     char* description;
-    date  dueDate;
+    Date  dueDate;
     char priority;
     
-} item;
+} Item;
 
 #endif // !ITEM_H

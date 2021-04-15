@@ -5,13 +5,14 @@
 #define STR_(X) #X
 #define STR(X) STR_(X)
 
+#define VERSION 0.1
+#define EMAIL lars.niesen@gmx.de
 #define USAGE "Usage:\n"\
               "todo add <name>\n"\
               "optional:\n"\
               "\t -d, --descriptions <string>\t\tdescription of todo item\n"\
               "\t -D, --due <date (dd-mm-yyyy)>\t\tdue date\n"\
               "\t -p, --priority <number>\t\tdescription of todo item"
-
 
 
 

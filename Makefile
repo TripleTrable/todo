@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS= -std=c99 -g -Wall -Wextra
+CFLAGS= -std=c99 -g -Wall -Wextra -no-pie
  
  
 SRC=$(wildcard src/*.c)
